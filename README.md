@@ -89,4 +89,10 @@ public Book findBook(@RequestBody Book book)
  controller的返回值是，public List<Book> findBooks() 这个方法，List<Book>,
  
  在js函数中，遍历取出来，append到表格中。
+ 
+ 六、@RestController注解相当于@ResponseBody ＋ @Controller合在一起的作用
+ 
+ 返回值是json,要用 @RestController 这个注解
+ 
+ 
           
